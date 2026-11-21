@@ -1,0 +1,14 @@
+[Unit]
+Description=Droid bind mount for /system
+Requires=system_root.mount
+After=system_root.mount
+Before=local-fs.target systemd-modules-load.service
+
+[Mount]
+What=/system_root/system
+Where=/system
+Options=bind
+TimeoutSec=10
+
+[Install]
+WantedBy=local-fs.target
