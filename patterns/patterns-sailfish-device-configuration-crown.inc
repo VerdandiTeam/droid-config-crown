@@ -23,6 +23,26 @@ Requires: patterns-sailfish-consumer-generic
 # to improve camera startup times and the like
 Requires: mapplauncherd-booster-silica-qt5-media
 
+# bloat
+Recommends: harbour-storeman
+Recommends: sailfishos-chum-gui
+Recommends: punky 
+Recommends: verdandiupdater-sfos
+
+# Remove busybox
+Requires: gnu-bash
+Requires: gnu-coreutils
+Requires: gnu-diffutils
+Requires: gnu-findutils
+Requires: gnu-grep
+Requires: gnu-gzip
+Requires: gnu-sed
+Requires: gnu-tar
+Requires: gnu-which
+
+# VerdandiTeam branding
+Requires: verdanditeam-branding
+
 %description -n patterns-sailfish-device-configuration-crown
 Pattern with packages for crown configurations
 

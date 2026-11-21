@@ -1,0 +1,7 @@
+CPUCHECK_STRING="fp asimd evtstrm aes pmull sha1 sha2 crc32"
+
+PART_1="boot"
+
+PART_REAL_1="mmcblk0p9"
+
+PART_I="1"
