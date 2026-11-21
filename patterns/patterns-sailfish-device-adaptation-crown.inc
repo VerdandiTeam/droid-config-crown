@@ -12,6 +12,7 @@ Requires: droid-config-crown-policy-settings
 Requires: droid-config-crown-preinit-plugin
 Requires: droid-config-crown-flashing
 Requires: droid-config-crown-bluez5
+Requires: bluebinder
 Requires: droid-hal-version-crown
 
 # Hybris packages

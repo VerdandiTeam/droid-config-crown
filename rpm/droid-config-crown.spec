@@ -15,10 +15,11 @@
 # Pixel ratio 1.0 was originally jolla phone with 245ppi, and the devices
 # should roughly have their ppi compared to that. Large displays can use
 # bigger ratio if seen fit. Values are with 0.25 increments.
-%define pixel_ratio 1.0
+%define pixel_ratio 0.8
 
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
+Obsoletes: ofono-configs-binder
 
 %define ofono_enable_plugins bluez5,hfp_ag_bluez5
 %define ofono_disable_plugins bluez4,dun_gw_bluez4,hfp_ag_bluez4,hfp_bluez4,dun_gw_bluez5,hfp_bluez5
