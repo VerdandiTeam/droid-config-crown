@@ -1,0 +1,7 @@
+#!/usr/bin/python3 -IS
+import fcntl, os, struct
+fd = os.open("/dev/ttyMT0", os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+b = bytearray(fcntl.ioctl(fd, 0x541E, bytes(72)))
+struct.pack_into("H", b, 40, 65535)
+fcntl.ioctl(fd, 0x541F, bytes(b))
+os.close(fd)
