@@ -28,6 +28,9 @@ Obsoletes: ofono-configs-binder
 %include patterns/patterns-sailfish-device-adaptation-crown.inc
 %include patterns/patterns-sailfish-device-configuration-crown.inc
 
+%triggerin -- sailfishsilica-qt5
+sed -i 's/^        return allowed$/        return Orientation.All/' /usr/lib/qt5/qml/Sailfish/Silica/Page.qml || :
+
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
 #define some_macro "I'll not be defined because I don't have % in front"

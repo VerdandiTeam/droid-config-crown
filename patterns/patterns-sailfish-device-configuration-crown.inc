@@ -17,7 +17,24 @@ Requires: jolla-settings-accounts-extensions-3rd-party-all
 
 # Introduced starting Sailfish OS 2.1.1.26
 # Required for Jolla Store Access
-Requires: patterns-sailfish-consumer-generic
+Requires: jolla-settings-accounts
+Requires: jolla-settings-accounts-extensions-onlinesync
+Requires: libsocialcache-qml-plugin
+Requires: sailfish-account-mastodon
+Requires: store-client
+Requires: jolla-settings-sailfishos
+Requires: jolla-settings-system-developermode
+Requires: jolla-developer-mode-preload
+Requires: jolla-keyboard-layout-all
+Requires: jolla-settings-accounts-extensions-jabber
+Requires: jolla-settings-accounts-extensions-jolla
+Requires: jolla-settings-accounts-extensions-webcal
+Requires: jolla-settings-system-reset
+Requires: jolla-settings-system-sideloading
+Requires: qt5-qtimageformats-plugin-tiff
+Requires: qt5-qtimageformats-plugin-webp
+Requires: sailfish-account-nextcloud-features-all
+Requires: ssu-vendor-data
 
 # Devices with 2G or more memory should also include this booster
 # to improve camera startup times and the like
