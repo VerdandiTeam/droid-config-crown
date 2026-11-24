@@ -1,0 +1,6 @@
+AUTHOR=mister_magister
+EMAIL=mister0magister@gmail.com
+BROKEN=Hardware video decoding,bluetooth,usb
+FEATURES=Powerful and loud speakers,AC powered,Privacy features
+DEVICE=Echo Show 8
+URL=https://forum.sailfishos.org/t/amazon-echo-show-8-port-from-verdanditeam/37013
